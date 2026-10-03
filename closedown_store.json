@@ -1,0 +1,188 @@
+{
+  "2026-09-05": {
+    "date": "2026-09-05",
+    "tasks": [
+      {
+        "id": "bags",
+        "name": "Bags packed for next day",
+        "category": "baggage",
+        "assignedAdults": [],
+        "assignedChildren": [],
+        "done": false
+      },
+      {
+        "id": "clothes",
+        "name": "Clothes layed out",
+        "category": "clothes",
+        "assignedAdults": [],
+        "assignedChildren": [],
+        "done": false
+      },
+      {
+        "id": "kitchen",
+        "name": "Kitchen cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Dad"
+        ],
+        "assignedChildren": [
+          "Alex"
+        ],
+        "done": false
+      },
+      {
+        "id": "family_room",
+        "name": "Family room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Dad"
+        ],
+        "assignedChildren": [
+          "El"
+        ],
+        "done": false
+      },
+      {
+        "id": "bathroom",
+        "name": "Bathroom cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Mum"
+        ],
+        "assignedChildren": [
+          "El"
+        ],
+        "done": false
+      },
+      {
+        "id": "alex_room",
+        "name": "Alex's Room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Mum"
+        ],
+        "assignedChildren": [
+          "Alex"
+        ],
+        "done": false
+      },
+      {
+        "id": "el_room",
+        "name": "El's room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Mum"
+        ],
+        "assignedChildren": [
+          "El"
+        ],
+        "done": false
+      },
+      {
+        "id": "parents_room",
+        "name": "Mum and Dad's room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Dad",
+          "Mum"
+        ],
+        "assignedChildren": [],
+        "done": false
+      }
+    ],
+    "silent": false
+  },
+  "2026-09-27": {
+    "date": "2026-09-27",
+    "tasks": [
+      {
+        "id": "bags",
+        "name": "Bags packed for next day",
+        "category": "baggage",
+        "assignedAdults": [],
+        "assignedChildren": [],
+        "done": false
+      },
+      {
+        "id": "clothes",
+        "name": "Clothes layed out",
+        "category": "clothes",
+        "assignedAdults": [],
+        "assignedChildren": [],
+        "done": false
+      },
+      {
+        "id": "kitchen",
+        "name": "Kitchen cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Mum"
+        ],
+        "assignedChildren": [
+          "Alex"
+        ],
+        "done": false
+      },
+      {
+        "id": "family_room",
+        "name": "Family room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Mum"
+        ],
+        "assignedChildren": [
+          "El"
+        ],
+        "done": false
+      },
+      {
+        "id": "bathroom",
+        "name": "Bathroom cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Dad"
+        ],
+        "assignedChildren": [
+          "El"
+        ],
+        "done": false
+      },
+      {
+        "id": "alex_room",
+        "name": "Alex's Room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Dad"
+        ],
+        "assignedChildren": [
+          "Alex"
+        ],
+        "done": false
+      },
+      {
+        "id": "el_room",
+        "name": "Eleanor's room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Dad"
+        ],
+        "assignedChildren": [
+          "El"
+        ],
+        "done": false
+      },
+      {
+        "id": "parents_room",
+        "name": "Mum and Dad's room cleared",
+        "category": "cleaning",
+        "assignedAdults": [
+          "Dad",
+          "Mum"
+        ],
+        "assignedChildren": [],
+        "done": false
+      }
+    ],
+    "silent": false
+  }
+}

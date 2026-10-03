@@ -1,0 +1,145 @@
+{
+  "balances": {
+    "el": 10,
+    "dad": 210,
+    "mum": 40,
+    "alex": 10
+  },
+  "history": [
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:30:31.360Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:30:31.143Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:30:30.940Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:30:30.756Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:30:24.672Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:30:23.066Z"
+    },
+    {
+      "memberId": "mum",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:58.725Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:55.722Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:55.504Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:55.336Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:55.157Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:54.974Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:54.791Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:54.607Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:54.432Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:53.635Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:53.420Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:53.246Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:53.084Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:52.911Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:52.720Z"
+    },
+    {
+      "memberId": "alex",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:51.214Z"
+    },
+    {
+      "memberId": "mum",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:49.556Z"
+    },
+    {
+      "memberId": "mum",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:48.602Z"
+    },
+    {
+      "memberId": "mum",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:47.726Z"
+    },
+    {
+      "memberId": "dad",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:46.597Z"
+    },
+    {
+      "memberId": "el",
+      "amount": 10,
+      "timestamp": "2026-09-10T19:26:44.573Z"
+    }
+  ]
+}

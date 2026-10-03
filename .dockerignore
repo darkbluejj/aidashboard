@@ -1,0 +1,6 @@
+node_modules
+.git
+.aistudio
+dist
+.env
+npm-debug.log*

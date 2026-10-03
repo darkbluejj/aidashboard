@@ -1,0 +1,76 @@
+{
+  "sonosRoutineEnabled": true,
+  "sonosVolume": 25,
+  "coinCost": 10,
+  "adults": [
+    {
+      "id": "dad",
+      "name": "Dad",
+      "role": "adult",
+      "color": "blue"
+    },
+    {
+      "id": "mum",
+      "name": "Mum",
+      "role": "adult",
+      "color": "rose"
+    }
+  ],
+  "children": [
+    {
+      "id": "el",
+      "name": "El",
+      "role": "child",
+      "color": "cyan"
+    },
+    {
+      "id": "alex",
+      "name": "Alex",
+      "role": "child",
+      "color": "amber"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "bags",
+      "name": "Bags packed for next day",
+      "category": "baggage"
+    },
+    {
+      "id": "clothes",
+      "name": "Clothes layed out",
+      "category": "clothes"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen cleared",
+      "category": "cleaning"
+    },
+    {
+      "id": "family_room",
+      "name": "Family room cleared",
+      "category": "cleaning"
+    },
+    {
+      "id": "bathroom",
+      "name": "Bathroom cleared",
+      "category": "cleaning"
+    },
+    {
+      "id": "alex_room",
+      "name": "Alex's Room cleared",
+      "category": "cleaning"
+    },
+    {
+      "id": "el_room",
+      "name": "Eleanor's room cleared",
+      "category": "cleaning"
+    },
+    {
+      "id": "parents_room",
+      "name": "Mum and Dad's room cleared",
+      "category": "cleaning"
+    }
+  ],
+  "scheduledTime": "20:00"
+}

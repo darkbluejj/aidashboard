@@ -1,0 +1,21 @@
+services:
+  family-dashboard:
+    build: .
+    container_name: family-dashboard
+    restart: unless-stopped
+    # Use host network mode so the Node process can discover and control local Sonos speakers directly
+    network_mode: host
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      # - SONOS_SPEAKER_IPS=192.168.1.40,192.168.1.41
+      # - SONOS_FAVORITE_NAME=Home
+      # - SOLAREDGE_SITE_ID=YOUR_SITE_ID
+      # - SOLAREDGE_API_KEY=YOUR_API_KEY
+      # - CALENDAR_ICAL_URLS=https://calendar.google.com/calendar/ical/.../basic.ics
+    volumes:
+      # Persist configuration and store data across container upgrades/restarts
+      - ./closedown_config.json:/app/closedown_config.json
+      - ./closedown_store.json:/app/closedown_store.json
+      - ./swearjar_store.json:/app/swearjar_store.json
+      - ./maps_usage_store.json:/app/maps_usage_store.json

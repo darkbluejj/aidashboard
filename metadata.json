@@ -1,0 +1,6 @@
+{
+  "name": "Commute Dashboard",
+  "description": "A high-visibility commute, traffic, tram, and weather dashboard styled for older devices and wall mounts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
