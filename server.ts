@@ -8,6 +8,7 @@ import { setAlert, getAlert, getAllAlerts } from "./src/alertsStore";
 import { startSolarForecastRule, evaluateSolarForecastRule } from "./src/solarForecastRule";
 import { getMapsUsage, checkAndRecordUsage, isQuotaAvailable, recordUsage } from "./src/mapsUsageStore";
 import { handleBusDeparturesRequest, handleBusConfigRequest } from "./busStopRule";
+import fs from "fs";
 
 dotenv.config();
 
@@ -583,8 +584,10 @@ app.get("/api/calendar/next-event", async (req, res) => {
 });
 
 // Daily Close Down Storage and Endpoints
-const CLOSEDOWN_FILE = path.join(process.cwd(), "closedown_store.json");
-const CLOSEDOWN_CONFIG_FILE = path.join(process.cwd(), "closedown_config.json");
+// Persistent data dir (mounted volume in Docker); falls back to cwd for local/Pi use
+const DATA_DIR = process.env.DATA_DIR || process.cwd();
+const CLOSEDOWN_FILE = path.join(DATA_DIR, "closedown_store.json");
+const CLOSEDOWN_CONFIG_FILE = path.join(DATA_DIR, "closedown_config.json");
 
 const DEFAULT_CONFIG = {
   sonosRoutineEnabled: true,
@@ -782,7 +785,7 @@ function generateTasksForDate() {
   return balanceAssignments(initialTasks, config);
 }
 
-import fs from "fs";
+
 
 function readStore(): Record<string, any> {
   try {
