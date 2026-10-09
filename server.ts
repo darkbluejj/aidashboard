@@ -1,6 +1,5 @@
 import express from "express";
 import path from "path";
-import { createServer as createViteServer } from "vite";
 import dotenv from "dotenv";
 import nodeIcal from "node-ical";
 import { startSonosCleardownRule, runTrigger, runRevert, rescheduleSonosRule } from "./src/sonosRule";
@@ -1272,6 +1271,7 @@ app.post("/api/swearjar/reset", (req, res) => {
 async function startServer() {
   // Vite middleware setup for local development
   if (process.env.NODE_ENV !== "production") {
+    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
