@@ -17,6 +17,7 @@
 import { Sonos } from "sonos";
 import fs from "fs";
 import path from "path";
+import { dataPath } from "./dataDir";
 
 // ---- Config (read lazily, NOT at module load time) ----------------------
 
@@ -33,7 +34,7 @@ function getFavoriteName(): string {
 
 function getSonosVolume(): number {
   try {
-    const configFile = path.join(process.cwd(), "closedown_config.json");
+    const configFile = dataPath("closedown_config.json");
     if (fs.existsSync(configFile)) {
       const data = fs.readFileSync(configFile, "utf-8");
       const cfg = JSON.parse(data);
@@ -49,7 +50,7 @@ function getSonosVolume(): number {
 
 export function isSonosRoutineEnabled(): boolean {
   try {
-    const configFile = path.join(process.cwd(), "closedown_config.json");
+    const configFile = dataPath("closedown_config.json");
     if (fs.existsSync(configFile)) {
       const data = fs.readFileSync(configFile, "utf-8");
       const cfg = JSON.parse(data);
@@ -63,11 +64,11 @@ export function isSonosRoutineEnabled(): boolean {
   return true;
 }
 
-const CLOSEDOWN_FILE = path.join(process.cwd(), "closedown_store.json");
+const CLOSEDOWN_FILE = dataPath("closedown_store.json");
 
 function getClosedownConfig(): any {
   try {
-    const configFile = path.join(process.cwd(), "closedown_config.json");
+    const configFile = dataPath("closedown_config.json");
     if (fs.existsSync(configFile)) {
       const data = fs.readFileSync(configFile, "utf-8");
       return JSON.parse(data);

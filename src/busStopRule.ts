@@ -33,6 +33,7 @@ import type { Request, Response } from "express";
 import fs from "fs";
 import path from "path";
 import * as cheerio from "cheerio";
+import { dataPath } from "./dataDir";
 
 // ---- Lazy env getters ---------------------------------------------------
 function getAtcoCode(): string {
@@ -92,7 +93,7 @@ export const DEFAULT_BUS_STOPS: BusStopConfig[] = [
   }
 ];
 
-const CONFIG_PATH = path.join(process.cwd(), "bus_stops_config.json");
+const CONFIG_PATH = dataPath("bus_stops_config.json");
 
 export function getBusStopsConfig(): BusStopConfig[] {
   try {

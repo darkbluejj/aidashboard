@@ -8,13 +8,16 @@ services:
     environment:
       - PORT=3000
       - NODE_ENV=production
+      # - DATA_DIR=/app/data
       # - SONOS_SPEAKER_IPS=192.168.1.40,192.168.1.41
       # - SONOS_FAVORITE_NAME=Home
       # - SOLAREDGE_SITE_ID=YOUR_SITE_ID
       # - SOLAREDGE_API_KEY=YOUR_API_KEY
       # - CALENDAR_ICAL_URLS=https://calendar.google.com/calendar/ical/.../basic.ics
     volumes:
-      # Persist configuration and store data across container upgrades/restarts
+      # Option A: Mount a dedicated persistent data directory (when DATA_DIR=/app/data)
+      # - ./data:/app/data
+      # Option B: Persist individual JSON store files
       - ./closedown_config.json:/app/closedown_config.json
       - ./closedown_store.json:/app/closedown_store.json
       - ./swearjar_store.json:/app/swearjar_store.json

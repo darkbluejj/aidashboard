@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
+import { dataPath } from './dataDir';
 
-const STORE_PATH = path.join(process.cwd(), 'maps_usage_store.json');
+const STORE_PATH = dataPath('maps_usage_store.json');
 export const MONTHLY_HARD_LIMIT = 5000;
 
 export interface MapsUsageData {
